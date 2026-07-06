@@ -155,7 +155,6 @@ nav {
     list-style: none;
 }
 
-/* Fix: Only target the main project cards, not the image lists inside them */
 .projects-flex > li {
     background: rgba(255, 255, 255, 0.722);
     padding: 16px;
@@ -204,7 +203,7 @@ nav {
 /* The wrappers holding the images */
 .project-img li, 
 .project-img1 li {
-    flex: 0 0 auto !important; /* CRITICAL: Absolutely refuses to squish */
+    flex: 0 0 auto !important; 
     width: 200px !important; 
     background: transparent;
     list-style: none;
